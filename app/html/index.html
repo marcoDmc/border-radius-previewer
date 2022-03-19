@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/app.js" defer></script>
+
+    <title>border radius previewer</title>
+  </head>
+  <body>
+    <section class="container__radius">
+      <div class="container__element-sides">
+        <h1>angles</h1>
+        <input
+          type="text"
+          id="container__left-top"
+          maxlength="6"
+          placeholder="left top"
+        />
+        <input
+          type="text"
+          id="container__right-top"
+          maxlength="6"
+          placeholder="right top"
+        />
+        <input
+          type="text"
+          id="container__bottom-right"
+          maxlength="6"
+          placeholder="bottom right"
+        />
+        <input
+          type="text"
+          id="container__bottom-left"
+          maxlength="6"
+          placeholder="bottom left"
+        />
+      </div>
+      <div class="radius"></div>
+    </section>
+    <section class="result">
+      <input type="text" value="waiting..." class="result__seletor" readonly />
+      <button id="result__button-copy">copy css</button>
+    </section>
+  </body>
+</html>
