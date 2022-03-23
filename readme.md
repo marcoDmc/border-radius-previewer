@@ -7,8 +7,11 @@
 - HTML/CSS
 
 > some images of the project 🔽
-
+#
 ![](./app/assets/img1.png)
+#
 ![](./app/assets/img2.png)
+#
 > copying css selector
+> #
 ![](./app/assets/img3.png)
